@@ -72,5 +72,7 @@ public class MainActivity extends AppCompatActivity {
                 .setCategory(NotificationCompat.CATEGORY_MESSAGE)
                 .build();
         notificationManager.notify(2, notification);
+
+        //comment
     }
 }
